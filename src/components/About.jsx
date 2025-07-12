@@ -53,7 +53,7 @@ const Abouts = () => {
             <img
               src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?q=80&w=1000&auto=format&fit=crop"
               alt="Developer working on code"
-              className="rounded-lg shadow-lg w-full h-auto ml-4"
+              className="rounded-lg shadow-lg w-full h-auto mx-auto"
             />
           </div>
 
