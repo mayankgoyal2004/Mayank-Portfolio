@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+html {
+  scroll-behavior: smooth;
+ 
+
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  
+
+}
+/* section {
+  scroll-margin-top: 120px;
+} */
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl shadow-xl;
+  }
+  
+  .glass-card-dark {
+    @apply bg-gray-800/10 backdrop-blur-sm border border-gray-700/20 rounded-xl shadow-xl;
+  }
+  
+  .neomorphism {
+    @apply bg-gray-100 shadow-[inset_0_2px_4px_rgba(0,0,0,0.1),inset_0_-2px_4px_rgba(255,255,255,0.9)] rounded-xl;
+  }
+  
+  .neomorphism-dark {
+    @apply bg-gray-800 shadow-[inset_0_2px_4px_rgba(0,0,0,0.3),inset_0_-2px_4px_rgba(255,255,255,0.1)] rounded-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent;
+  }
+  
+  .animated-gradient {
+    background: linear-gradient(-45deg, #3B82F6, #8B5CF6, #F59E0B, #EF4444);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .pulse-animation {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+}
+
