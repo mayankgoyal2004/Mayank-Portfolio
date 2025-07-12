@@ -1,5 +1,6 @@
 import { UsersRound, CodeIcon, MonitorIcon, UsersIcon } from "lucide-react";
 import { motion } from "motion/react"
+import jobImage from "../assets/photo-1544256718-3bcf237f3974.jpg";
 
 const Abouts = () => {
   const features = [
@@ -51,9 +52,9 @@ const Abouts = () => {
           {/* Image */}
           <div className="lg:w-1/2">
             <img
-              src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?q=80&w=1000&auto=format&fit=crop"
+              src={jobImage}
               alt="Developer working on code"
-              className="rounded-lg shadow-lg w-full h-auto mx-auto"
+              className="rounded-lg shadow-lg max-w-[600px]  h-auto mx-auto"
             />
           </div>
 

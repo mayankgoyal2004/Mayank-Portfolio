@@ -106,6 +106,8 @@ const Skill = () => {
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 mb-4 group-hover:scale-110 transition-transform">
                 <img
+                
+                loading="lazy"
                   src={skill.icon}
                   alt={skill.name}
                   className="w-full h-full object-contain"

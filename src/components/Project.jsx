@@ -43,6 +43,7 @@ const ProjectCard = ({ project }) => (
   >
     <motion.div whileHover={{ scale: 1.05 }} className="overflow-hidden">
       <img
+      loading="lazy"
         src={project.image}
         alt={project.title}
         className="w-full h-48 object-cover transition-transform duration-300"
@@ -94,7 +95,7 @@ const ProjectCard = ({ project }) => (
 
 const Projects = () => {
   return (
-    <section id="projects" className="px-4 pt-10 md:px-  dark:bg-[#0f172a] scroll-mt-20">
+    <section id="projects" className="px-4 pt-10 md:px-10  dark:bg-[#0f172a] scroll-mt-20">
       <div className="text-center mb-8 ">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white ">
           My{" "}

@@ -26,7 +26,7 @@ const Hero = () => {
               sequence={["Web Developer", 1000, "Coder", 1000]}
               wrapper="span"
               speed={50}
-              className="text-5xl text-purple-600 font-semibold block"
+              className="text-4xl md:text-5xl text-purple-600 font-semibold block"
               repeat={Infinity}
             />
           </h2>

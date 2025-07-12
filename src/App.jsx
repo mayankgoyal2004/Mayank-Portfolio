@@ -11,7 +11,7 @@ import Skill from "./components/Skill"
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <Abouts />
