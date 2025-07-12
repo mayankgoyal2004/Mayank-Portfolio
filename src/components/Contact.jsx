@@ -177,12 +177,14 @@ const Contact = () => {
           <h4 className="font-medium mb-3 text-gray-900 dark:text-white">Follow Me</h4>
           <div className="flex gap-4">
             <a
+            target="_blank"
               href="https://github.com/mayankgoyal2004"
               className="bg-gray-100 dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-blue-900 p-2 rounded-full text-blue-600"
             >
               <Github size={20} />
             </a>
             <a
+            target="_blank"
               href="https://www.linkedin.com/in/mayank-goyal-634a662a1/"
               className="bg-gray-100 dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-blue-900 p-2 rounded-full text-blue-600"
             >
