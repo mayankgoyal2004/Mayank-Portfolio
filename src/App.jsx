@@ -5,8 +5,9 @@ import Hero from "./components/Hero"
 
 import Navbar from "./components/Navbar"
 import Projects from "./components/Project"
+import Skill from "./components/Skill"
 
-import Skill from "./components/skills"
+
 
 const App = () => {
   return (
