@@ -54,7 +54,7 @@ const Abouts = () => {
             <img
               src={jobImage}
               alt="Developer working on code"
-              className="rounded-lg shadow-lg max-w-[600px]  h-auto mx-auto"
+              className="rounded-lg shadow-lg max-w-full  h-auto mx-auto"
             />
           </div>
 
