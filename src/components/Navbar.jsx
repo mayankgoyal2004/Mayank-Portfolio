@@ -37,7 +37,7 @@ const Navbar = () => {
   }, [isDark]);
 
   return (
-    <nav className="w-full shadow-sm sticky top-0 z-50 bg-white  dark:bg-[#0f172a] transition-colors duration-300">
+    <nav className="w-full shadow-sm sticky top-0 z-50 bg-white  dark:bg-[#0f172a] transition-colors duration-300 overflow-hidden">
       <div className="max-w-7xl mx-auto p-4 flex justify-between items-center dark:bg-[#1e293b]">
         {/* Logo */}
         <div className="flex gap-2 justify-center items-center">
