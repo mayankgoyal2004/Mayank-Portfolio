@@ -17,8 +17,8 @@ const projects = [
     description:
       "Modern and responsive developer portfolio with animation, dark mode, and smooth scrolling.",
     tags: ["React", "Framer Motion", "Tailwind CSS"],
-    code: "https://github.com/yourusername/portfolio",
-    demo: "https://your-portfolio.vercel.app",
+    code: "https://github.com/mayankgoyal2004/Mayank-Portfolio",
+    demo: "https://mayankportfolio-one.vercel.app/",
     image:
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1000&auto=format&fit=crop",
     showDemo: true,
