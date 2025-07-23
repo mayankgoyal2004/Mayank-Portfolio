@@ -185,7 +185,7 @@ const Contact = () => {
             </a>
             <a
             target="_blank"
-              href="https://www.linkedin.com/in/mayank-goyal-634a662a1/"
+              href="https://www.linkedin.com/in/mayankgoyal2004/"
               className="bg-gray-100 dark:bg-slate-700 hover:bg-blue-100 dark:hover:bg-blue-900 p-2 rounded-full text-blue-600"
             >
               <Linkedin size={20} />

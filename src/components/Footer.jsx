@@ -25,8 +25,8 @@ const Footer = () => {
               <Github className="text-white" size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/mayank-goyal-634a662a1/
-              "target="_black"
+              href="https://www.linkedin.com/in/mayankgoyal2004/"
+              target="_black"
               className="bg-gray-800 hover:bg-gray-700 p-3 rounded-full"
             >
               <Linkedin className="text-white" size={18} />
