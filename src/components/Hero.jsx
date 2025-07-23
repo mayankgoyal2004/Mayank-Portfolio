@@ -68,7 +68,7 @@ const Hero = () => {
           <motion.div className="flex justify-center lg:justify-start items-center">
             {[
               { icon: Github, href: "https://github.com/mayankgoyal2004" },
-              { icon: Linkedin, href: "https://www.linkedin.com/in/mayank-goyal-634a662a1/" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/mayankgoyal2004/" },
               { icon: Mail, href: "mailto:2004mayankgoyal@gmail.com" },
             ].map(({ icon: Icon, href }, i) => (
               <motion.a
