@@ -1,6 +1,15 @@
 import { ExternalLink, Github } from "lucide-react";
 import { motion } from "motion/react"
-const projects = [
+const projects = [{
+  title: "Dev Connection",
+    description:
+      "Dev Connection - MERN Stack Social Platform",
+    tags: ["Node Js ", "Express Js","MongoDB","React Js","Tailwind CSS"],
+    code: "https://github.com/mayankgoyal2004/devConnection",
+    demo: "https://tinyurl.com/4b3kzrj6",
+    image:"https://www.shutterstock.com/image-vector/man-key-near-computer-account-260nw-1499141258.jpg",
+    showDemo: true,
+},
   {
     title: "Task Assign System",
     description:
