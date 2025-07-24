@@ -1,6 +1,7 @@
 import { Download, Github, Linkedin, Mail } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "motion/react"
+import resume from "../public/Mayank Resume.pdf"
 const Hero = () => {
   return (
     <section
@@ -55,14 +56,14 @@ const Hero = () => {
               Hire Me
             </motion.button>
 </motion.a>
-            <motion.button
+         <a href={resume} target="_blank">  <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 border-2 border-blue-500 text-blue-500 rounded-full font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300"
             >
               <Download size={20} className="mr-2 inline" />
               Download Resume
-            </motion.button>
+            </motion.button></a> 
           </motion.div>
 
           <motion.div className="flex justify-center lg:justify-start items-center">
